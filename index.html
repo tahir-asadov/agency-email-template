@@ -45,6 +45,18 @@
                     pointer-events: auto;
                     cursor: default;
                 }
+        
+        .container {
+            display: block;
+            width: 100%;
+        }
+        .column {
+            display: block;
+            width: 100%;
+        }
+        .desktop-column {
+            display: none;
+        }
     }
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
         a[href^="tel"], a[href^="sms"] {
@@ -89,7 +101,7 @@
         <tr>
             <td>
                 <!-- Main Contanier -->
-                <table cellpadding="0" cellspacing="0" border="0" align="center" width="600">
+                <table class="container" cellpadding="0" cellspacing="0" border="0" align="center" width="600">
                     <!-- Navigation Section -->
                     <tr>
                         <td style="background: white;">
@@ -101,12 +113,12 @@
                                     <td>
                                         <table width="100%" cellpadding="0" cellspacing="0" border="0" >
                                             <tr>
-                                                <td width="300" align="center">
+                                                <td class="column" width="300" align="center">
                                                     <a href="#" style="font-family: Poppins, sans-serif;font-size: 16px;font-weight: 500;color: black;text-decoration: none;">
                                                         <span style="color: #7dc93f;">UIFUSE</span> AGENCY<img border="0" src="https://agencyemailtemplate.tahirasadov.com/images/dot.png" style="margin-left: 13px;" alt="Dot">
                                                     </a>
                                                 </td>
-                                                <td align="center">
+                                                <td class="column" align="center">
                                                     <a href="#" style="font-family: Poppins, sans-serif;font-size: 14px;font-weight: 500;text-decoration: none;color: #080b1a;margin-right: 25px;">ABOUT</a>
                                                     <a href="#" style="font-family: Poppins, sans-serif;font-size: 14px;font-weight: 500;text-decoration: none;color: #080b1a;margin-right: 25px;">SERVICES</a>
                                                     <a href="#" style="font-family: Poppins, sans-serif;font-size: 14px;font-weight: 500;text-decoration: none;color: #080b1a;margin-right: 25px;">CONTACT</a>
@@ -133,7 +145,7 @@
                                         <p style="font-family: Montserrat, sans-serif;font-size: 16px;font-weight: 500;color: white;margin-bottom: 51px;">
                                             WE ARE <span style="color: #7dc93f">CREATIVE</span> AGENCY
                                         </p>
-                                        <p style="font-family: Montserrat, sans-serif; font-weight: bold;font-size: 36px; color: white;margin-bottom: 30px;">
+                                        <p style="font-family: Montserrat, sans-serif; font-weight: bold;font-size: 36px;line-height: 36px;color: white;margin-bottom: 30px;">
                                             BUSINESS BEGINS NOW
                                         </p>
                                         <p style="font-family: Montserrat, sans-serif; font-weight: 300;font-size: 12px; color: white;letter-spacing: 14px;margin-bottom: 52px;">
@@ -155,8 +167,8 @@
                                     <td style="border-bottom: #f2f2f2 solid 1px;">
                                         <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                             <tr>
-                                                <td>
-                                                    <table width="194" cellpadding="0" cellspacing="0" border="0" align="center">
+                                                <td class="column" width="194">
+                                                    <table cellpadding="0" cellspacing="0" border="0" align="center">
                                                         <tr>
                                                             <td height="50"></td>
                                                         </tr>
@@ -186,9 +198,9 @@
                                                         </tr>
                                                     </table>
                                                 </td>
-                                                <td>
+                                                <td class="column" width="194">
                                                     
-                                                    <table width="194" cellpadding="0" cellspacing="0" border="0" align="center">
+                                                    <table cellpadding="0" cellspacing="0" border="0" align="center">
                                                         <tr>
                                                             <td height="50"></td>
                                                         </tr>
@@ -218,9 +230,9 @@
                                                         </tr>
                                                     </table>
                                                 </td>
-                                                <td>
+                                                <td class="column" width="194">
 
-                                                    <table width="194" cellpadding="0" cellspacing="0" border="0" align="center">
+                                                    <table cellpadding="0" cellspacing="0" border="0" align="center">
                                                         <tr>
                                                             <td height="50"></td>
                                                         </tr>
@@ -259,14 +271,14 @@
                                 </tr>
                                 <tr>
                                     <td align="center">
-                                        <p style="font-size: 30px;letter-spacing: 2px;color: #434343;font-weight: 700;font-family: Montserrat, sans-serif;margin-bottom: 28px;">
+                                        <p style="font-size: 30px;line-height: 30px;letter-spacing: 2px;color: #434343;font-weight: 700;font-family: Montserrat, sans-serif;margin-bottom: 28px;">
                                             YOU KNOW ABOUT <span style="color: #7dc93f">UIFUSE</span>
                                         </p>
                                         <p style="font-size: 14px;letter-spacing: 6px;line-height: 12px;color: #999999;font-weight: 400;font-family: Poppins, sans-serif;margin-bottom: 28px;">
                                             WELCOME TO OUR WEBSITE
                                         </p>
                                         <p style="height: 1px;width: 65px;background: #7dc93f;margin-bottom: 22px;"></p>
-                                        <p style="width: 490px;height: 40px;font-size: 14px;letter-spacing: 0px;color: #434343;font-weight: 400;font-family: Poppins, sans-serif;text-align: center;">
+                                        <p style="height: 40px;font-size: 14px;letter-spacing: 0px;color: #434343;font-weight: 400;font-family: Poppins, sans-serif;text-align: center;">
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit explicabo consequatur quas doloribus
                                         </p>
                                     </td>
@@ -278,8 +290,8 @@
                                     <td>
                                         <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                             <tr>
-                                                <td align="center">
-                                                    <table width="194" cellpadding="0" cellspacing="0" border="0">
+                                                <td class="column" align="center" width="194">
+                                                    <table cellpadding="0" cellspacing="0" border="0">
                                                         <tr>
                                                             <td align="center">
                                                                 <img border="0" src="https://agencyemailtemplate.tahirasadov.com/images/emp-1.png" alt="">
@@ -299,8 +311,8 @@
                                                         </tr>
                                                     </table>
                                                 </td>
-                                                <td align="center">
-                                                    <table width="194" cellpadding="0" cellspacing="0" border="0">
+                                                <td class="column" align="center" width="194">
+                                                    <table cellpadding="0" cellspacing="0" border="0">
                                                         <tr>
                                                             <td align="center">
                                                                 <img border="0" src="https://agencyemailtemplate.tahirasadov.com/images/emp-2.png" alt="">
@@ -320,8 +332,8 @@
                                                         </tr>
                                                     </table>
                                                 </td>
-                                                <td align="center">
-                                                    <table width="194" cellpadding="0" cellspacing="0" border="0">
+                                                <td class="column" align="center" width="194">
+                                                    <table cellpadding="0" cellspacing="0" border="0">
                                                         <tr>
                                                             <td align="center">
                                                                 <img border="0" src="https://agencyemailtemplate.tahirasadov.com/images/emp-3.png" alt="">
@@ -353,7 +365,7 @@
                         <td>
                             <table width="100%" height="243" cellpadding="0" cellspacing="0" border="0" valign="top" style="background-image: url( https://agencyemailtemplate.tahirasadov.com/images/video-bg.png );">
                                 <tr>
-                                    <td align="center" style="font-size: 24px;letter-spacing: 1px;color: #ffffff;font-weight: 400;font-family: Poppins;">
+                                    <td align="center" style="font-size: 24px;line-height: 24px;letter-spacing: 1px;color: #ffffff;font-weight: 400;font-family: Poppins;">
                                         <p style="margin-bottom: 42px;">
                                             WATCHING OUR <strong style="color: #7dc93f">WORKING VIDEO</strong>
                                         </p>
@@ -368,29 +380,31 @@
                         <td>
                             <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background: white;" align="center">
                                 <tr>
-                                    <td width="250">
+                                    <td class="column" width="250">
                                         <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                             <tr>
                                                 <td height="63"></td>
                                             </tr>
                                             <tr>
-                                                <td width="30"></td>
-                                                <td>
+                                                <td class="desktop-column" width="30"></td>
+                                                <td style="padding: 0 15px;">
                                                     <p style="font-size: 30px;letter-spacing: 2px;color: #434343;font-weight: 700;font-family: Montserrat;margin-bottom: 17px;">Our Skills</p>
                                                     <p style="font-size: 14px;letter-spacing: 2px;color: #999999;font-weight: 400;font-family: Poppins;margin-bottom: 37px;">BECAUSE SKILLS PAY BILLS</p>
                                                     <p style="font-size: 14px;;color: #999999;font-weight: 400;font-family: Poppins;margin-bottom: 36px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blansasdit odio at sodales aliquet volutpat.</p>
                                                     <a class="button" href="/" style="display: inline-block;width: 152px;height: 38px;line-height: 38px;border-radius: 18px;background-color: #7dc93f;font-size: 14px;letter-spacing: 0px;text-align: center;color: #ffffff;font-weight: bold;font-family: Montserrat;text-decoration: none;">LEARN MORE</a>
                                                 </td>
+                                                <td class="desktop-column" width="15"></td>
                                             </tr>
                                         </table>
                                     </td>
-                                    <td width="250">
+                                    <td class="column" width="250">
                                         <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                             <tr>
                                                 <td height="90"></td>
                                             </tr>
                                             <tr>
-                                                <td>
+                                                <td class="desktop-column" width="15"></td>
+                                                <td style="padding: 0 15px;">
                                                     <p style="font-size: 14px;letter-spacing: 0px;color: #434343;font-weight: 500;font-family: Montserrat;">DESIGNING</p>
                                                     <p style="font-size: 14px;letter-spacing: 0px;color: #999999;font-weight: 500;font-family: Montserrat;text-align: right;margin-top: -15px;">95%</p>
                                                     <p style="height: 4px;background: #7dc93f;width: 95%;margin-bottom: 2px;"></p>
@@ -412,39 +426,35 @@
                                                     <p style="height: 4px;background: #7dc93f;width: 50%;margin-bottom: 2px;"></p>
                                                     <p style="height: 1px;margin-bottom: 35px;background: #dadada;"></p>
                                                 </td>
-                                                <td width="30"></td>
+                                                <td class="desktop-column" width="30"></td>
                                             </tr>
                                         </table>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td width="250">
+                                    <td class="column" width="250">
                                         <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                             <tr>
-                                                <td>
-                                                    <td width="30"></td>
-                                                    <td style="background-color: #f9f9f9;padding: 0 15px;box-shadow: 2px 2px 2px -1px rgba(1,1,1,0.1);" align="center">
-                                                        <p style="font-size: 22px;color: #434343;font-weight: 700;font-family: Montserrat;margin-top: 48px;margin-bottom: 30px;text-align: center;">MAKE YOUR IDEA</p>
-                                                        <p style="font-size: 14px;letter-spacing: 0px;line-height: 24px;color: #999999;font-weight: 400;font-family: Poppins;margin-bottom: 32px;text-align: center;">Consectetur ading elit. Vivamus nec nisi sed sa ss diam ultricies Great tempus.</p>
-                                                        <a class="button" href="/" style="display: inline-block;width: 152px;height: 38px;line-height: 38px;border-radius: 18px;background-color: #7dc93f;font-size: 14px;letter-spacing: 0px;text-align: center;color: #ffffff;font-weight: bold;font-family: Montserrat;text-decoration: none;margin-bottom: 38px;">LEARN MORE</a>
-                                                    </td>
-                                                    <td width="15"></td>
+                                                <td class="desktop-column" width="30"></td>
+                                                <td style="background-color: #f9f9f9;padding: 0 15px;box-shadow: 2px 2px 2px -1px rgba(1,1,1,0.1);" align="center">
+                                                    <p style="font-size: 22px;color: #434343;font-weight: 700;font-family: Montserrat;margin-top: 48px;margin-bottom: 30px;text-align: center;">MAKE YOUR IDEA</p>
+                                                    <p style="font-size: 14px;letter-spacing: 0px;line-height: 24px;color: #999999;font-weight: 400;font-family: Poppins;margin-bottom: 32px;text-align: center;">Consectetur ading elit. Vivamus nec nisi sed sa ss diam ultricies Great tempus.</p>
+                                                    <a class="button" href="/" style="display: inline-block;width: 152px;height: 38px;line-height: 38px;border-radius: 18px;background-color: #7dc93f;font-size: 14px;letter-spacing: 0px;text-align: center;color: #ffffff;font-weight: bold;font-family: Montserrat;text-decoration: none;margin-bottom: 38px;">LEARN MORE</a>
                                                 </td>
+                                                <td class="desktop-column" width="15"></td>
                                             </tr>
                                         </table>
                                     </td>
-                                    <td width="250">
+                                    <td class="column" width="250">
                                         <table width="100%" cellpadding="0" cellspacing="0" border="0">
                                             <tr>
-                                                <td width="15"></td>
-                                                <td>
-                                                    <td style="background-color: #f9f9f9;padding: 0 15px;box-shadow: 2px 2px 2px -1px rgba(1,1,1,0.1);" align="center">
-                                                        <p style="font-size: 22px;color: #434343;font-weight: 700;font-family: Montserrat;margin-top: 48px;margin-bottom: 30px;text-align: center;">LAUNCH DESIGN</p>
-                                                        <p style="font-size: 14px;letter-spacing: 0px;line-height: 24px;color: #999999;font-weight: 400;font-family: Poppins;margin-bottom: 32px;text-align: center;">Consectetur ading elit. Vivamus nec nisi sed sa ss diam ultricies Great tempus.</p>
-                                                        <a class="button" href="/" style="display: inline-block;width: 152px;height: 38px;line-height: 38px;border-radius: 18px;background-color: #7dc93f;font-size: 14px;letter-spacing: 0px;text-align: center;color: #ffffff;font-weight: bold;font-family: Montserrat;text-decoration: none;margin-bottom: 38px;">LEARN MORE</a>
-                                                    </td>
-                                                    <td width="30"></td>
+                                                <td class="desktop-column" width="15"></td>
+                                                <td style="background-color: #f9f9f9;padding: 0 15px;box-shadow: 2px 2px 2px -1px rgba(1,1,1,0.1);" align="center">
+                                                    <p style="font-size: 22px;color: #434343;font-weight: 700;font-family: Montserrat;margin-top: 48px;margin-bottom: 30px;text-align: center;">LAUNCH DESIGN</p>
+                                                    <p style="font-size: 14px;letter-spacing: 0px;line-height: 24px;color: #999999;font-weight: 400;font-family: Poppins;margin-bottom: 32px;text-align: center;">Consectetur ading elit. Vivamus nec nisi sed sa ss diam ultricies Great tempus.</p>
+                                                    <a class="button" href="/" style="display: inline-block;width: 152px;height: 38px;line-height: 38px;border-radius: 18px;background-color: #7dc93f;font-size: 14px;letter-spacing: 0px;text-align: center;color: #ffffff;font-weight: bold;font-family: Montserrat;text-decoration: none;margin-bottom: 38px;">LEARN MORE</a>
                                                 </td>
+                                                <td class="desktop-column" width="30"></td>
                                             </tr>
                                         </table>
                                     </td>
